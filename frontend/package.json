@@ -1,0 +1,13 @@
+{
+  "name": "streaming-client",
+  "scripts": {
+    "dev": "nuxt --hostname 0.0.0.0",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start --hostname 0.0.0.0"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8",
+    "nuxt-socket-io": "^2.0.0"
+  }
+}
